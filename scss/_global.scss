@@ -1,0 +1,42 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: $weight-3;
+
+    button {
+        font-weight: $weight-6;
+    }
+
+    span {
+        font-weight: $weight-7;
+    }
+
+    h1, h5, p {
+        margin: 0;
+    }
+
+    #email-input-section, img.dashboard, #icon {
+        margin: 0 auto;
+    }
+
+    h1, h5, p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        padding: 0 5%;
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        h6 {
+            text-align: center;
+        }
+    }
+}

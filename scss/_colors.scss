@@ -1,0 +1,47 @@
+body {
+    h1 {
+        color: $word-color-2;
+
+        span {
+            color: $word-color-4;
+        }
+    }
+
+    h5 {
+        color: $word-color-4;
+    }
+
+    #email-input-section {
+        input {
+            border-color: $input-border;
+        }
+
+        input.error {
+            border-color: $input-border-error;
+        }
+
+        button {
+            background-color: $button-background;
+            color: $word-color-1;
+        }
+
+        button:hover {
+            background-color: $button-background-hover;
+        }
+    }
+
+    h6 {
+        color: $word-color-3;
+    }
+
+    #icon {
+        .mx-2 {
+            color: $icon;
+        }
+
+        .mx-2:hover {
+            background-color: $icon-background-hover;
+            color: $word-color-1;
+        }
+    }
+}
